@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="style4.css">
+  <title>Surat Undangan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<audio id="backgroundMusic" src="y2mate (mp3cut.net).mp3" loop></audio>
+</head>
+<body>
+  <div class="background">
+    <div class="surat">
+      <div class="icon-surat" onclick="zoomOut()">
+        <div class="surat-cinta">
+          <img src="surat.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="text1">
+      <p>Klik Untuk Membuka Undangan!</p>
+    </div>
+  </div>
+  <section id="hero" class="main-menu" style="display: none;">
+    <div class="menu-undangan">
+      <div class="tag-judul">
+        <h1>Undangan Pernikahan</h1>
+        <div class="erwin">
+          <p>Erwin</p>
+        </div>
+        <div class="dan">
+          <p>&</p>
+        </div>
+        <div class="Elis">
+          <p>Nazla</p>
+        </div>
+      </div>     
+      <div class="foto-pengantin">
+        <img src="Picture2.png" alt="">
+      </div>
+      <div class="tag-tujuan">
+        <p>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+      </div>
+      <div class="shape-nama">
+        <div class="nama-undangan">
+          <p>Keluarga Besar PGSD</p>
+        </div>
+      </div>
+      <div class="tombol-buka" onclick="naikkeatas()">
+        <button><span class="icon-pesan">&#9993;</span>Buka Undangan</button>
+      </div>
+      <div class="mohon-maaf">
+        <p>*Mohon maaf apabila ada kesalahan dalam penulisan nama/gelar</p>
+      </div>
+    </div>
+  </section>
+  <main id="menu2" class="menu-utama" style="display: none;">
+    <div class="menu10" id="home">
+      <div class="judul2">
+        <h1>The Wedding Of</h1>
+      </div>
+      <div class="foto-pengantin2">
+        <img src="Picture2.png" alt="">
+      </div>
+      <div class="nama-pengantin2">
+        <h1>Erwin & Nazla</h1>
+      </div>
+      <div class="tanggal-resepsi2">
+        <p>Minggu, 01 Maret 2024</p>
+      </div>
+      <div class="coutdown">
+        <div class="day"></div>
+        <div class="hours"></div>
+        <div class="minutes"></div>
+        <div class="second"></div>
+      </div>
+    </div>
+    <div class="menu11" id="pengantar">
+      <div class="background2">
+        <h1>Assalamualaiakum Wr. Wb</h1>
+        <p>Dengan Memohon Rahmat dan Ridho</p>
+        <p>Allah Subhanallahu Wa Ta'ala, InshaAllah kami akan</p>
+        <p>menyelenggarakan acara pernikahan :</p>
+        <div class="bunga-2">
+          <img src="" alt="">
+        </div>
+        <h1>Nazla Safira, S. Pd</h1>
+        <p>Putri ke 3 dari Bapak Sutejo & Ibu Rosmalina</p>
+        <p><span>&</span></p>
+        <h1>Erwin Nur Hidayatullah</h1>
+        <p>Putra ke 6 dari Bapak Engkur & Suhaenah</p>
+      </div>
+    </div>
+    <div class="menu12" id="alamat">
+      <div class="background3">
+        <div class="judul3">
+          <h1>Akad Nikah</h1>
+        </div>
+        <div class="tanggal-resepsi3">
+          <div class="hari">
+            <p>Sabtu</p>
+          </div>
+          <div class="Tanggal">
+            <div class="tgl">01</div>
+            <div class="thn">2024</div>
+          </div>
+          <div class="bulan">
+            <p>Desember</p>
+          </div>
+        </div>
+        <div class="waktu">
+          <p>Pukul 09.00 s/d Selesai</p>
+        </div>
+        <div class="alamat">
+          <h1>Alamat</h1>
+          <p>Kediaman Mempelai Wanita</p>
+          <p>Kp. Cipacung RT/RW 02/03 Kel. Saruni</p>
+          <p>Kec. Majasari, Kab. Pandeglang Banten</p>
+        </div>
+        <div class="maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.101272581396!2d106.61299214031953!3d-6.250384780833805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42235e286c1ed9%3A0x401e8f1fc28c2a0!2sPandeglang%2C%20Kec.%20Pandeglang%2C%20Kabupaten%20Pandeglang%2C%20Banten!5e0!3m2!1sid!2sid!4v1708435677831!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="buttons1">
+          <a href="https://maps.app.goo.gl/UBGujcW8iNspy9aWA"><i class="fas fa-map-marked-alt"></i> Lihat Peta</a>
+      </div>      
+      </div>
+    </div>
+    <div class="menu13" id="resepsi">
+      <div class="coutdown1">
+        <div class="day1"></div>
+        <div class="hours1"></div>
+        <div class="minutes1"></div>
+        <div class="second1"></div>
+      </div>
+      <div class="buttons2">
+        <a href=""><i class="fas fa-clock"></i> Ingatkan Saya!</a>
+    </div>
+      <div class="background4">
+        <div class="judul4">
+          <h1>Resepsi</h1>
+        </div>
+        <div class="tanggal-resepsi4">
+          <div class="hari1">
+            <p>Sabtu</p>
+          </div>
+          <div class="Tanggal1">
+            <div class="tgl1">01</div>
+            <div class="thn1">2024</div>
+          </div>
+          <div class="bulan1">
+            <p>Desember</p>
+          </div>
+        </div>
+        <div class="waktu1">
+          <p>Pukul 09.00 s/d Selesai</p>
+        </div>
+        <div class="alamat1">
+          <h1>Alamat</h1>
+          <p>Kediaman Mempelai Wanita</p>
+          <p>Kp. Cipacung RT/RW 02/03 Kel. Saruni</p>
+          <p>Kec. Majasari, Kab. Pandeglang Banten</p>
+        </div>
+        <div class="maps1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.101272581396!2d106.61299214031953!3d-6.250384780833805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42235e286c1ed9%3A0x401e8f1fc28c2a0!2sPandeglang%2C%20Kec.%20Pandeglang%2C%20Kabupaten%20Pandeglang%2C%20Banten!5e0!3m2!1sid!2sid!4v1708435677831!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="buttons1">
+        <a href="https://maps.app.goo.gl/UBGujcW8iNspy9aWA">Lihat Peta</a>
+        </div>
+      </div>
+    </div>
+    <div class="menu20" id="chat-me"> 
+      <div class="background-white">
+        <div class="tag-judul20">
+          <h1>RSV</h1>
+          <P>Silahkan Konfirmasi Kehadiran Anda</P>
+        </div>
+        <div class="container-kehadiran">
+          <label>Nama</label>
+          <input class="nama-k" placeholder="Nama">
+          <label>Alamat</label>
+          <input class="alamat-k" placeholder="Alamat">
+          <p>Konfirmasi Kehadiran:</p>
+          <label for="akan_datang">
+          <input type="radio" id="akan_datang" name="konfirmasi" value="Akan Datang">
+              Saya Akan Datang
+          </label>
+          <label for="masih_ragu">
+          <input type="radio" id="masih_ragu" name="konfirmasi" value="Masih Ragu">
+              Saya Masih Ragu
+          </label>
+          <label for="tidak_bisa_datang">
+          <input type="radio" id="tidak_bisa_datang" name="konfirmasi" value="Tidak Bisa Datang">
+              Maaf, Saya Tidak Bisa Datang
+          </label>
+        </div>
+        <div class="buttons20">
+          <a href="">Reservation Via Whatsapp</a>
+        </div>      
+      </div>
+      <div class="tag-judul21">
+        <h1>Ucapan dan Do'a</h1>
+        <p>Berikan Ucapan terbaik untuk kedua mempelai</p>
+      </div>
+      <div class="container-ucapan">
+        <div class="inputan-ucapan">
+          <label>Nama</label>
+          <input class="nama-p" placeholder="Isikan Nama Anda" required>
+          <label>Ucapan</label>
+          <textarea class="ucapan-p" placeholder="Berikan Ucapan Dan Doa Restu" required></textarea>
+        </div>
+        <div class="buttons21">
+          <button type="submit">Kirimkan Ucapan</button>
+        </div>
+        <div class="list-ucapan">
+        </div>
+      </div>
+    </div>
+    <div class="menu23" id="qr-kode">
+      <div class="background-white23">
+        <div class="tag-judul23">
+          <P>UNTUK YANG BERHALANGAN HADIR,</P>
+          <p>KAMI TAMBAHKAN FITUR DIBAWAH INI.</p>
+        </div>
+        <div class="angpau">
+          <a href="#"><i class="fa fa-gift"></i> Angpau & Hadiah</a>
+        </div>
+        <div class="kartu-BRI">
+          <div class="logo-BRI">
+            <img src="credit-card-icon-1599620639.png" alt="">
+          </div>
+          <div class="no-rek1">
+            <P>1234567890</P>
+            <P>A.N. Erwin Hidayatullah</P>
+          </div>
+          <div class="salin-no-rek">
+            <a href=""><i class="fa fa-copy"></i> Salin Nomor Rekening </a>
+          </div>
+          <div class="konfirmasi-wa">
+            <a href="#">
+              <i class="fa fa-paper-plane"></i> Konfirmasi Whatsapp
+            </a>
+          </div>
+          <div class="logo-BRI">
+            <img src="BCA Mastercard Black 2 Front.png" alt="">
+          </div>
+          <div class="no-rek1">
+            <P>01983831723</P>
+            <p>A.N. Nazla Safira</p>
+          </div>
+          <div class="salin-no-rek">
+            <a href=""><i class="fa fa-copy"></i> Salin Nomor Rekening </a>
+          </div>
+          <div class="konfirmasi-wa">
+            <a href="#">
+              <i class="fa fa-paper-plane"></i> Konfirmasi Whatsapp
+            </a>
+          </div>
+          <div class="logo-BRI">
+            <h1>Kirim Kado</h1>
+          </div>
+          <div class="no-rek1">
+            <P>Alamat Kp. Cipacung, RT/RW 02/05</P>
+            <p>Kelurahan Saruni Kec. Majasari</p>
+            <p>Kab. Pandeglang Banten</p>
+          </div>
+          <div class="salin-no-rek">
+            <a href=""><i class="fa fa-copy"></i> Salin Nomor Rekening </a>
+          </div>
+          <div class="konfirmasi-wa">
+            <a href="#">
+              <i class="fa fa-paper-plane"></i> Konfirmasi Whatsapp
+            </a>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <div class="menu11" id="penutup">
+      <div class="background2">
+        <p>Atas Kehadiran dan Do'a Restu dari</p>
+        <p>Bapak/Ibu/Saudara/i Sekalian, kami</p>
+        <p>Mengucapkan Terima Kasih</p>
+        <h1>Wassalamualaikum, Wr. Wb</h1>
+        <p>Kami yang berbahagia</p>
+        <h1>Erwin & Erwin</h1>
+      </div>
+    </div>
+    <div class="menu-interaktif">
+      <div class="bcmenu-i">
+        <a href="#home" class="menuhome"><i class="fas fa-home"></i></a>
+        <a href="#pengantar" class="menuorang"><i class="fas fa-users"></i></a>
+        <a href="#chat-me" class="menugalery"><i class="fas fa-sms"></i></a>
+        <a href="#alamat" class="menumaps"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="#qr-kode" class="menuqr"><i class="fas fa-qrcode"></i></a>
+        <a href="#penutup" class="menuautoscrolauto" onclick="scrollToBottom()"><i class="fas fa-play"></i></a>
+        <a href="#" class="menumusik"><i class="fas fa-music"></i></a>
+      </div>
+    </div>
+    <div class="menu50" id="pengantar50">
+      <div class="background50">
+        <p>Design Bye💕Erwin Hidayatullah</p>
+      </div>
+      <div class="sosmed-icon">
+        <a href="#" class="sosmed-link"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="sosmed-link"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="sosmed-link"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="sosmed-link"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </main>
+  <script src="javascript.js"></script>
+  <script src="timer.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+.icon-surat {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.surat-cinta img{
+  width: 200px;
+  height: 200px;
+}
+.text1{
+  padding: 20px;
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(5);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.icon-surat.clicked {
+  animation: zoomIn 0.5s ease-out forwards;
+}
+
+.text1.fade-out {
+  animation: fadeOut 0.5s ease-out forwards;
+}
+
+/* Animasi untuk memudar pada background */
+@keyframes fadeOutBackground {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.background.fade-out {
+  animation: fadeOutBackground 0.5s ease-out forwards;
+}
+
+.main-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0, 174, 255);
+  color: rgb(0, 0, 0);
+  background-image: url('BC7.avif'); /* Ganti dengan URL gambar Anda */
+  background-size: cover;
+  z-index: 2; /* Atur z-index menjadi lebih tinggi */
+}
+
+.erwin {
+  font-family: "Great Vibes", cursive;
+  position: absolute;
+  bottom: 30px; /* Atur jarak dari bawah */
+  left: 80px; /* Atur jarak dari kiri */
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.dan {
+  position: relative;
+  font-family: "Great Vibes", cursive;
+  font-size: 48px;  
+  color: #ffffff;
+}
+.Elis {
+  font-family: "Great Vibes", cursive;
+  position: absolute;
+  bottom: 10px; /* Atur jarak dari bawah */
+  right: 70px; /* Atur jarak dari kanan */
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.foto-pengantin img {
+  width: 300px;
+  height: 300px;
+}
+.tag-judul {
+  position: relative;
+  width: 100%; /* Atur lebar relatif */
+  max-width: 420px; /* Lebar maksimum agar tidak terlalu melebar */
+  margin: 0 auto; /* Atur margin horizontal agar berada di tengah */
+  padding: 20px; /* Atur padding agar konten tidak terlalu dekat dengan tepi */
+  box-sizing: border-box; /* Pastikan padding tidak mempengaruhi lebar elemen */
+  color: #ffffff;
+}
+.tag-judul h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+.tag-tujuan {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+}
+.shape-nama {
+  border-radius: 10px;
+  width: 200px; /* Atur lebar sesuai kebutuhan */
+  height: 80px; /* Atur tinggi sesuai kebutuhan */
+  background-color: white; /* Warna background putih */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Atur margin horizontal agar berada di tengah */
+  font-weight: bold;
+}
+.tombol-buka {
+  margin-top: 5px; /* Beri jarak antara shape nama dan tombol */
+  text-align: center;
+  cursor: pointer;
+}
+.tombol-buka button {
+  background-color: #e928d9; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  padding: 10px 25px; /* Padding agar tombol lebih besar */
+  border: none; /* Hapus border */
+  border-radius: 5px; /* Agar tombol terlihat lebih bulat */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Efek transisi untuk perubahan warna */
+}
+.tombol-buka span {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.tombol-buka button:hover {
+  background-color: #bb25ae; /* Warna latar belakang saat mouse di atas tombol */
+}
+
+.mohon-maaf {
+  font-size: 16px;
+  margin-top: 5px; /* Beri jarak antara tombol dan teks mohon maaf */
+  text-align: center;
+  color: #720c6a;
+}
+@media (max-width: 768px) {
+  .tag-tujuan{
+    font-size: 16px;
+  }
+}
+
+.menu-utama {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  z-index: 1; /* Atur z-index lebih rendah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Atur latar belakang semi-transparan */
+  overflow-y: auto;
+}
+.menu10 {
+  display: flex;
+  flex-direction: column; /* Mengatur arah stacking ke vertikal */
+  align-items: center; /* Memusatkan secara horizontal */
+  justify-content: center; /* Memusatkan secara vertikal */
+  height: 100%; /* Menyesuaikan tinggi sesuai konten */
+  background-image: url('BC.jpg'); /* Ganti dengan URL gambar Anda */
+  background-size: cover;
+}
+.foto-pengantin2 img {
+  width: 250px;
+  height: 250px;
+}
+.nama-pengantin2 h1 {
+  font-family: "Great Vibes", cursive;
+  color: #bb25ae;
+}
+.tanggal-resepsi2 p {
+  font-family: "Poppins", sans-serif;
+  color: #720c6a;
+}
+.menu-interaktif {
+  position: fixed; /* Tetap melekat di bawah layar */
+  bottom: 0; /* Memposisikan menu di bagian bawah layar */
+  left: 0; /* Memposisikan menu di bagian kiri */
+  right: 0; /* Memposisikan menu di bagian kanan */
+  z-index: 1; /* Atur z-index lebih rendah */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100px; /* Atur tinggi minimal */
+}
+
+.bcmenu-i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px rgba(48, 48, 48, 0.2);
+}
+
+.menu-interaktif .bcmenu-i a {
+  width: 100%;
+  height: 60%;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px; /* 
+  Atur jarak horizontal antara ikon-ikon */
+}
+.bcmenu-i a {
+  text-decoration: none;
+  width: 100%;
+  height: 60%;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex; /* Menggunakan flexbox */
+  align-items: center; /* Menyatukan ikon ke tengah vertikal */
+  justify-content: center; /* Menyatukan ikon ke tengah horizontal */
+  margin: 0 10px; /* Atur jarak horizontal antara ikon-ikon */
+  transition: background-color 0.4s;
+}
+.bcmenu-i a:hover {
+  color: white;
+  background-color: #bb25ae; /* Ubah warna latar belakang */
+}
+.bcmenu-i a i {
+  font-size: 24px; /* Atur ukuran ikon */
+}
+
+/* Atur animasi untuk main-menu */
+.main-menu {
+  /* Properti lain */
+  transition: transform 0.5s ease; /* Animasi perubahan posisi */
+}
+
+/* Atur posisi offscreen untuk animasi */
+.main-menu.offscreen {
+  transform: translateY(-100%);
+}
+
+.bcmenu-i a.menumusik.playing {
+  color: white;
+  background-color: #bb25ae;
+}
+
+.coutdown {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.coutdown div {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #bb25ae;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.coutdown p {
+  color: white;
+  margin: 0;
+}
+.judul2 h1{
+  font-size: 26px;
+  color: #720c6a;
+}
+.fa-play{
+  transform: rotate(90deg); /* Memutar ikon sebesar 60 derajat */
+}

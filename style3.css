@@ -1,0 +1,289 @@
+.menu13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-image: url('BC2.jpg');
+    background-size: cover;
+}
+
+.coutdown1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+  
+.coutdown1 div {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #bb25aea9;
+    color: white;
+    border-radius: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.coutdown1 p {
+    color: white;
+    margin: 0;
+}
+.buttons2 {
+    margin: 20px 20px;
+    padding: 10px 10px;
+    font-size: 18px; /* Ukuran font tombol */
+    background-color: #bb25ae; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Hapus border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Kursor menunjukkan tindakan dapat dilakukan */
+    transition: background-color 0.3s; /* Transisi ketika tombol digeser */
+}
+
+.buttons2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons2:hover {
+    background-color: #f316e1; /* Warna latar belakang saat dihover */
+}
+
+.background4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%; /* Menggunakan 80% dari tinggi menu12 */
+    width: 80%; /* Menggunakan 80% dari lebar menu12 */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.158); /* Meningkatkan opasitas latar belakang */
+    padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan pinggir */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
+
+.judul4 {
+    font-size: 14px;
+}
+.alamat1 {
+    font-size: 14px;
+}
+.tanggal-resepsi4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tanggal-resepsi4 > div {
+    margin: 0 10px;
+}
+
+.hari1, .bulan1 {
+    font-size: 26px;
+    padding: 0 10px; /* Mengurangi padding agar teks tidak terlalu dekat dengan border */
+}
+
+.hari1 {
+    border-right: 1px solid black;
+}
+
+.bulan1 {
+    border-left: 1px solid black;
+}
+
+.tgl1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.thn1 {
+    font-size: 20px;
+}
+
+
+.maps1 iframe {
+    width: 100%; /* Mengisi seluruh lebar dari parent */
+    height: calc(100% - 60px); /* Menggunakan sisa tinggi untuk peta */
+    margin-bottom: 20px; /* Memberikan jarak antara peta dengan elemen berikutnya */
+    border-radius: 5px;
+    overflow: hidden; /* Mengatasi masalah dengan elemen yang melewati batas */
+    border: 10px solid #cf16a7; /* Menambahkan border solid dengan warna abu-abu */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+}
+.buttons1 {
+    padding: 10px 20px; /* Padding tombol */
+    font-size: 18px; /* Ukuran font tombol */
+    background-color: #bb25ae; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Hapus border */
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Kursor menunjukkan tindakan dapat dilakukan */
+    transition: background-color 0.3s; /* Transisi ketika tombol digeser */
+}
+.buttons1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons1:hover {
+    background-color: #f518e2; /* Warna latar belakang saat dihover */
+}
+
+
+.menu20 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-image: url('BC3.jpg');
+    background-size: cover;
+}
+.background-white {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%; /* Menggunakan 80% dari tinggi menu12 */
+    width: 80%; /* Menggunakan 80% dari lebar menu12 */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.158); /* Meningkatkan opasitas latar belakang */
+    padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan pinggir */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
+.container-kehadiran {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Mengubah penempatan elemen menjadi rata kiri */
+}
+
+input[type="radio"] {
+    margin-right: 10px; /* Memberikan jarak antara radio button dan labelnya */
+}
+
+.nama-k,
+.alamat-k {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.buttons20 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#bb25ae;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buttons20 a:hover {
+    background-color: #f518e2;
+}
+
+
+
+
+
+
+.container-ucapan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%; /* Menggunakan 80% dari tinggi menu12 */
+    width: 80%; /* Menggunakan 80% dari lebar menu12 */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.158); /* Meningkatkan opasitas latar belakang */
+    padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan pinggir */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
+
+
+
+.inputan-ucapan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Menggunakan 100% dari lebar parentnya */
+}
+
+.nama-p, .ucapan-p {
+    width: 100%; /* Menggunakan 100% dari lebar parentnya */
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; /* Menghilangkan ujung yang dapat ditarik */
+}
+.nama-p:focus, .ucapan-p:focus {
+    border-color: #86087c; /* Mengubah warna border saat elemen mendapatkan fokus */
+    outline: none; /* Menghilangkan outline bawaan browser */
+}
+
+/* Menyesuaikan tinggi textarea dengan input */
+.ucapan-p {
+    font-family: "Poppins", sans-serif;
+    height: 100px; /* Mengatur tinggi textarea menjadi 100px */
+}
+.buttons21 button {
+    margin: 20px;
+    padding: 10px 20px; /* Menambahkan padding agar tombol terlihat lebih besar */
+    background-color: #9e0089; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan */
+    transition: background-color 0.3s; /* Efek transisi pada perubahan warna latar belakang */
+}
+
+.buttons21 button:hover {
+    background-color: #ff00ea; /* Warna latar belakang saat tombol dihover */
+}
+
+
+.list-ucapan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Menyusun pesan dari kiri ke kanan */
+  justify-content: flex-start; /* Menyusun pesan dari atas ke bawah */
+  height: 300px; /* Atur tinggi agar dapat discroll jika lebih dari satu pesan */
+  overflow-y: auto; /* Aktifkan scroll jika konten melebihi tinggi */
+  padding: 10px;
+  background-color: #bb25ae44;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.pesan {
+  display: flex;
+  align-items: flex-start; /* Menyusun pesan dari kiri ke kanan */
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Membuat foto bulat */
+  margin-right: 10px;
+}
+
+.isi-pesan {
+    text-align: left;
+    font-size: 14px;
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.isi-pesan p {
+  margin: 0;
+}
+
+.isi-pesan strong {
+  font-weight: bold;
+}
